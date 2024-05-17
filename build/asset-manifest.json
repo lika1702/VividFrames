@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Vivid-Frames/static/css/main.39343584.css",
+    "main.js": "/Vivid-Frames/static/js/main.53312c44.js",
+    "static/media/portrait-photography.png": "/Vivid-Frames/static/media/portrait-photography.94ab693a48e0db0c5015.png",
+    "static/media/repo-1.jpg": "/Vivid-Frames/static/media/repo-1.1527c5919dfac71a79c2.jpg",
+    "static/media/commercial-1.jpg": "/Vivid-Frames/static/media/commercial-1.abbe7367a0d3258c7c43.jpg",
+    "static/media/portrait-5.jpg": "/Vivid-Frames/static/media/portrait-5.db02678a9d505c868079.jpg",
+    "static/media/fine-2.jpg": "/Vivid-Frames/static/media/fine-2.52ad4916e2c4f62c7c8e.jpg",
+    "static/media/commercial-3.jpg": "/Vivid-Frames/static/media/commercial-3.a456cb7c41526629e9d2.jpg",
+    "static/media/wedding-1.jpg": "/Vivid-Frames/static/media/wedding-1.a3279ce757a431e72334.jpg",
+    "static/media/portrait-4.jpg": "/Vivid-Frames/static/media/portrait-4.7a3c600d6a177c33418b.jpg",
+    "static/media/family-1.jpg": "/Vivid-Frames/static/media/family-1.eb2758ca59469894d0c5.jpg",
+    "static/media/commercial-2.jpg": "/Vivid-Frames/static/media/commercial-2.55998fd7f4a0be992b4d.jpg",
+    "static/media/family-3.jpg": "/Vivid-Frames/static/media/family-3.090247459a340243e955.jpg",
+    "static/media/wedding-2.jpg": "/Vivid-Frames/static/media/wedding-2.5b9e09f01a639c9bcf41.jpg",
+    "static/media/portrait-1.jpg": "/Vivid-Frames/static/media/portrait-1.7691075a6e9902abd8e7.jpg",
+    "static/media/family-2.jpg": "/Vivid-Frames/static/media/family-2.9440d5bacd04cd81a937.jpg",
+    "static/media/fine-1.jpg": "/Vivid-Frames/static/media/fine-1.c5f11b33d4fc7560d3c6.jpg",
+    "static/media/photographer-2.png": "/Vivid-Frames/static/media/photographer-2.77519c51c5cec43bd7cb.png",
+    "static/media/photographer-1.png": "/Vivid-Frames/static/media/photographer-1.3d7adc66c4ad16420617.png",
+    "static/media/portrait-3.jpg": "/Vivid-Frames/static/media/portrait-3.fef54dda3ffc955cf60c.jpg",
+    "static/media/photographer-3.png": "/Vivid-Frames/static/media/photographer-3.25db3b9ba5b7494939a2.png",
+    "static/media/studio.jpg": "/Vivid-Frames/static/media/studio.b413e4074e9f6373cc21.jpg",
+    "static/media/photographer-4.png": "/Vivid-Frames/static/media/photographer-4.2550f3bf569e542bf0ff.png",
+    "static/media/portrait-2.jpg": "/Vivid-Frames/static/media/portrait-2.5544540ab8626ec896ff.jpg",
+    "index.html": "/Vivid-Frames/index.html",
+    "main.39343584.css.map": "/Vivid-Frames/static/css/main.39343584.css.map",
+    "main.53312c44.js.map": "/Vivid-Frames/static/js/main.53312c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39343584.css",
+    "static/js/main.53312c44.js"
+  ]
+}
