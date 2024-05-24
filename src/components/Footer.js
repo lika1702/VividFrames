@@ -12,6 +12,10 @@ class Footer extends React.Component {
             <ul>
                 <li><a href="">+375 33 361 95 93</a></li>
                 <li><a href="">+375 29 595 08 17</a></li>
+                <li><a href="https://www.google.com/">Gmail</a></li>
+                <li><a href="https://yandex.by/">Yandex</a></li>
+                <li><a href="https://vk.com/">VK</a></li>
+                <li><a href="https://www.youtube.com/">YouTube</a></li>
             </ul>
         </footer>)
     };
