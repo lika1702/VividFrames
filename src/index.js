@@ -77,10 +77,18 @@ export const App = () => (
 ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
         <Routes>
-            <Route exact path="/" component={Main} />
-            <Route path='/services' component={Services} />
-            <Route path='/portfolio' component={Portfolio} />
-            <Route path='/contacts' component={Contacts} />
+            <Route exact path="/">
+                <Main />
+            </Route>
+            <Route path='/services'>
+                <Services />
+            </Route>
+            <Route path='/portfolio'>
+                <Portfolio />
+            </Route>
+            <Route path='/contacts'>
+                <Contacts />
+            </Route>
         </Routes>
     </HashRouter>
 );
