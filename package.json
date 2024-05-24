@@ -2,7 +2,7 @@
   "name": "vivid-frames",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://lika1702.github.io/Vivid-Frames", 
+  "homepage": "https://vivid-frames.vercel.app/", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
