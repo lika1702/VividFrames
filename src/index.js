@@ -59,14 +59,12 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <HashRouter basename={process.env.PUBLIC_URL}>
-        <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path='/services' element={<Services />} />
-            <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/contacts' element={<Contacts />} />
-        </Routes>
-    </HashRouter>
+    <Routes>
+        <Route exact path="/" component={Main} />
+        <Route path='/services' component={Services} />
+        <Route path='/portfolio' component={Portfolio} />
+        <Route path='/contacts' component={Contacts} />
+    </Routes>
 );
 
 /*ReactDOM.render(
@@ -77,5 +75,7 @@ export const App = () => (
 );*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
+    <BrowserRouter>
         <App />
+    </BrowserRouter>
 );
