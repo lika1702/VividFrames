@@ -59,23 +59,14 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
-            <Route exact path="/">
-                <Main />
-            </Route>
-            <Route path='/services'>
-                <Services />
-            </Route>
-            <Route path='/portfolio'>
-                <Portfolio />
-            </Route>
-            <Route path='/contacts'>
-                <Contacts />
-            </Route>
+            <Route path="/" element={<Main />} />
+            <Route path='/services' element={<Services />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/contacts' element={<Contacts />} />
         </Routes>
-    </BrowserRouter>
-
+    </HashRouter>
 );
 
 /*ReactDOM.render(
