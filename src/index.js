@@ -76,6 +76,11 @@ export const App = () => (
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
-        <App />
+        <Routes>
+            <Route exact path="/" component={Main} />
+            <Route path='/services' component={Services} />
+            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/contacts' component={Contacts} />
+        </Routes>
     </BrowserRouter>
 );
