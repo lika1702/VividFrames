@@ -59,8 +59,7 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <HashRouter>
-        <Routes>
+        <Switch>
             <Route exact path="/">
                 <Main />
             </Route>
@@ -73,8 +72,7 @@ export const App = () => (
             <Route path='/contacts'>
                 <Contacts />
             </Route>
-        </Routes>
-    </HashRouter>
+        </Switch>
 );
 
 /*ReactDOM.render(
@@ -84,6 +82,11 @@ export const App = () => (
     document.getElementById('root')
 );*/
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-    <App />
-);
+ReactDOM.render(
+    <React.StrictMode>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
