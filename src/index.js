@@ -85,5 +85,5 @@ export const App = () => (
 );*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-        hello;
+        "hello"
 );
