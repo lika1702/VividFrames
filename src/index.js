@@ -8,7 +8,7 @@ import Contacts from './Contacts';
 import Main from './Main';
 
 import { HashRouter, BrowserRouter } from 'react-router-dom';
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 /*
 ReactDOM.render((
@@ -59,7 +59,7 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <Switch>
+    <Routes>
         <Route exact path="/">
             <Main />
         </Route>
@@ -72,7 +72,7 @@ export const App = () => (
         <Route path='/contacts'>
             <Contacts />
         </Route>
-    </Switch>
+    </Routes>
 );
 
 /*ReactDOM.render(
