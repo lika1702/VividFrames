@@ -59,7 +59,7 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
             <Route exact path="/">
                 <Main />
@@ -74,7 +74,7 @@ export const App = () => (
                 <Contacts />
             </Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 /*ReactDOM.render(
