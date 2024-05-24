@@ -83,9 +83,7 @@ export const App = () => (
 );*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
         <HashRouter>
             <App />
         </HashRouter>
-    </React.StrictMode>
 );
