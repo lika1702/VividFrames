@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vivid-Frames/static/css/main.39343584.css",
-    "main.js": "/Vivid-Frames/static/js/main.53312c44.js",
+    "main.js": "/Vivid-Frames/static/js/main.708e60ce.js",
     "static/media/portrait-photography.png": "/Vivid-Frames/static/media/portrait-photography.94ab693a48e0db0c5015.png",
     "static/media/repo-1.jpg": "/Vivid-Frames/static/media/repo-1.1527c5919dfac71a79c2.jpg",
     "static/media/commercial-1.jpg": "/Vivid-Frames/static/media/commercial-1.abbe7367a0d3258c7c43.jpg",
@@ -26,10 +26,10 @@
     "static/media/portrait-2.jpg": "/Vivid-Frames/static/media/portrait-2.5544540ab8626ec896ff.jpg",
     "index.html": "/Vivid-Frames/index.html",
     "main.39343584.css.map": "/Vivid-Frames/static/css/main.39343584.css.map",
-    "main.53312c44.js.map": "/Vivid-Frames/static/js/main.53312c44.js.map"
+    "main.708e60ce.js.map": "/Vivid-Frames/static/js/main.708e60ce.js.map"
   },
   "entrypoints": [
     "static/css/main.39343584.css",
-    "static/js/main.53312c44.js"
+    "static/js/main.708e60ce.js"
   ]
 }

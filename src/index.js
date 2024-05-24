@@ -7,7 +7,7 @@ import Portfolio from './Portfolio';
 import Contacts from './Contacts';
 import Main from './Main';
 
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
 /*
@@ -43,14 +43,49 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <RouterProvider router={router} />
     </React.StrictMode>
 );*/
-console.log(process.env.PUBLIC_URL);
+/*console.log(process.env.PUBLIC_URL);
 ReactDOM.render((
     <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route exact path='/' element={<Main />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/contacts' element={<Contacts />} />
+            <Route exact path='/' element={<Main />} />
+            <Route path='/services' element={<Services />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/contacts' element={<Contacts />} />
         </Routes>
     </HashRouter>
-), document.getElementById('root'));
+), document.getElementById('root'));*/
+
+
+
+
+export const App = () => (
+    <HashRouter>
+        <Routes>
+            <Route path="/Vivid-Frames/">
+                <Main />
+            </Route>
+            <Route path="/Vivid-Frames/services">
+                <Services />
+            </Route>
+            <Route path="/Vivid-Frames/portfolio">
+                <Portfolio />
+            </Route>
+            <Route path="/Vivid-Frames/contacts">
+                <Contacts />
+            </Route>
+        </Routes>
+    </HashRouter>
+);
+
+/*ReactDOM.render(
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+);*/
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <h1>Hello world</h1>
+    </BrowserRouter>
+);
