@@ -85,7 +85,5 @@ export const App = () => (
 );*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <h1>Hello world</h1>
-    </BrowserRouter>
 );
