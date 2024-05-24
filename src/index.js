@@ -61,18 +61,10 @@ ReactDOM.render((
 export const App = () => (
     <HashRouter>
         <Routes>
-            <Route path="/Vivid-Frames/">
-                <Main />
-            </Route>
-            <Route path="/Vivid-Frames/services">
-                <Services />
-            </Route>
-            <Route path="/Vivid-Frames/portfolio">
-                <Portfolio />
-            </Route>
-            <Route path="/Vivid-Frames/contacts">
-                <Contacts />
-            </Route>
+            <Route path="/" element={<Main />} />
+            <Route path='/services' element={<Services />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/contacts' element={<Contacts />} />
         </Routes>
     </HashRouter>
 );
@@ -85,5 +77,5 @@ export const App = () => (
 );*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-        "hello"
+    <App />
 );
