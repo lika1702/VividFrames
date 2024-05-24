@@ -59,20 +59,20 @@ ReactDOM.render((
 
 
 export const App = () => (
-        <Switch>
-            <Route exact path="/">
-                <Main />
-            </Route>
-            <Route path='/services'>
-                <Services />
-            </Route>
-            <Route path='/portfolio'>
-                <Portfolio />
-            </Route>
-            <Route path='/contacts'>
-                <Contacts />
-            </Route>
-        </Switch>
+    <Switch>
+        <Route exact path="/">
+            <Main />
+        </Route>
+        <Route path='/services'>
+            <Services />
+        </Route>
+        <Route path='/portfolio'>
+            <Portfolio />
+        </Route>
+        <Route path='/contacts'>
+            <Contacts />
+        </Route>
+    </Switch>
 );
 
 /*ReactDOM.render(
@@ -82,11 +82,10 @@ export const App = () => (
     document.getElementById('root')
 );*/
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-      <HashRouter>
-        <App />
-      </HashRouter>
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
+        <HashRouter>
+            <App />
+        </HashRouter>
+    </React.StrictMode>
+);
