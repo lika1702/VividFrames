@@ -59,20 +59,23 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <Routes>
-        <Route exact path="/">
-            <Main />
-        </Route>
-        <Route path='/services'>
-            <Services />
-        </Route>
-        <Route path='/portfolio'>
-            <Portfolio />
-        </Route>
-        <Route path='/contacts'>
-            <Contacts />
-        </Route>
-    </Routes>
+    <HashRouter>
+        <Routes>
+            <Route exact path="/">
+                <Main />
+            </Route>
+            <Route path='/services'>
+                <Services />
+            </Route>
+            <Route path='/portfolio'>
+                <Portfolio />
+            </Route>
+            <Route path='/contacts'>
+                <Contacts />
+            </Route>
+        </Routes>
+    </HashRouter>
+
 );
 
 /*ReactDOM.render(
