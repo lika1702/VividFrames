@@ -75,7 +75,7 @@ export const App = () => (
 );*/
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <HashRouter>
+    <BrowserRouter>
         <Routes>
             <Route exact path="/">
                 <Main />
@@ -90,5 +90,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 <Contacts />
             </Route>
         </Routes>
-    </HashRouter>
+    </BrowserRouter>
 );
