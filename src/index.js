@@ -59,22 +59,6 @@ ReactDOM.render((
 
 
 export const App = () => (
-    <Routes>
-        <Route exact path="/" component={Main} />
-        <Route path='/services' component={Services} />
-        <Route path='/portfolio' component={Portfolio} />
-        <Route path='/contacts' component={Contacts} />
-    </Routes>
-);
-
-/*ReactDOM.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <App />
-    </BrowserRouter>,
-    document.getElementById('root')
-);*/
-
-ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
         <Routes>
             <Route exact path="/">
@@ -91,4 +75,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             </Route>
         </Routes>
     </BrowserRouter>
+);
+
+/*ReactDOM.render(
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+);*/
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <App />
 );
