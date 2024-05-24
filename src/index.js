@@ -69,13 +69,9 @@ export const App = () => (
     </HashRouter>
 );
 
-/*ReactDOM.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <App />
-    </BrowserRouter>,
-    document.getElementById('root')
-);*/
-
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <App />
+    <Routes>
+        <App />
+    </Routes>
+    
 );
