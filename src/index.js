@@ -8,7 +8,7 @@ import Contacts from './Contacts';
 import Main from './Main';
 
 import { HashRouter, BrowserRouter } from 'react-router-dom';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 /*
 ReactDOM.render((
