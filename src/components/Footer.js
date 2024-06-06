@@ -17,6 +17,7 @@ class Footer extends React.Component {
                 <li><a href="https://vk.com/">VK</a></li>
                 <li><a href="https://www.youtube.com/">YouTube</a></li>
             </ul>
+            <a href="https://mrqz.me/665454413078b0026ef08b0">Помогите нам стать лучше</a>
         </footer>)
     };
 }
