@@ -405,3 +405,8 @@ footer ul li a {
 .portfolio-block .photo:hover .photo-header {
     opacity: 0;
 }
+
+.help-us {
+    color: #ffffff;
+    width: 100%;
+}
