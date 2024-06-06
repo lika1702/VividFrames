@@ -18,6 +18,7 @@ function Main() {
         <PhotographerBlock title="Фотографы" />
         <ServicesBlock limit={3} title="Услуги" />
       </section>
+      <a href="https://mrqz.me/6654542413078b0026ef08b0" className="help-us">Помогите нам стать лучше</a>
     </main>
     <Footer />
   </div>);
